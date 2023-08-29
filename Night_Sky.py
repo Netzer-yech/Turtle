@@ -20,7 +20,7 @@ def draw_star(turtle , size):
 
 
 # Draw random stars on the screen within the specified range
-for _ in range(1000):  # You can adjust the number of stars
+for _ in range(10000):  # You can adjust the number of stars
     # Generate random coordinates within the specified range
     x = random.randint(-400, 400)
     y = random.randint(-400, 400)
